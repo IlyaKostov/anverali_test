@@ -8,6 +8,11 @@ packages = [{include = "anverallig_test"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+sqlalchemy = "^2.0.30"
+psycopg2 = "^2.9.9"
+pydantic = "^2.7.1"
+pydantic-settings = "^2.2.1"
+python-telegram-bot = "^21.1.1"
 
 
 [build-system]
